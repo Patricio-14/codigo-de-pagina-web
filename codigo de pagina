@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio Climático</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #2d6187;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2d6187;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .boton {
+            background-color: #2d6187;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        .boton:hover {
+            background-color: #1a3d57;
+        }
+        footer {
+            background-color: #2d6187;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Todo sobre el Cambio Climático</h1>
+    </header>
+    <main>
+        <section id="que-es">
+            <h2>¿Qué es el cambio climático?</h2>
+            <p>El cambio climático se refiere a las alteraciones a largo plazo en los patrones climáticos globales y regionales. Estas alteraciones incluyen un aumento en las temperaturas globales, derretimiento de los glaciares, aumento del nivel del mar y fenómenos meteorológicos extremos.</p>
+            <p>Desde el inicio de la Revolución Industrial, las actividades humanas han incrementado significativamente la concentración de gases de efecto invernadero en la atmósfera, exacerbando el cambio climático.</p>
+            <p>El cambio climático no solo afecta al medio ambiente, sino también a las economías, la biodiversidad y la calidad de vida de las personas en todo el mundo.</p>
+            <img src="ruta-a-tu-imagen1.jpg" alt="Imagen relacionada con el cambio climático">
+            <a href="https://www.manosunidas.org/observatorio/cambio-climatico/que-es-cambio-climaticoz" class="boton">Más información</a>
+        </section>
+        <section id="como-se-genera">
+            <h2>¿Cómo se genera?</h2>
+            <p>El cambio climático es principalmente impulsado por la emisión de gases de efecto invernadero, como el dióxido de carbono (CO₂) y el metano (CH₄). Estos gases atrapan el calor en la atmósfera, generando un efecto invernadero que eleva la temperatura global.</p>
+            <p>Factores clave que contribuyen al cambio climático incluyen:</p>
+            <ul>
+                <li>Uso de combustibles fósiles, como carbón, petróleo y gas natural, para generar energía.</li>
+                <li>Deforestación, que reduce la capacidad de los ecosistemas para absorber CO₂.</li>
+                <li>Prácticas agrícolas intensivas, como el cultivo de arroz y la ganadería, que liberan grandes cantidades de metano.</li>
+                <li>Generación de desechos sólidos y líquidos que producen gases dañinos al descomponerse.</li>
+            </ul>
+            <img src="ruta-a-tu-imagen2.jpg" alt="Contaminación contribuyendo al cambio climático">
+            <a href="link" class="boton">Más información</a>
+        </section>
+        <section id="soluciones">
+            <h2>Posibles soluciones</h2>
+            <p>Para combatir el cambio climático, es esencial adoptar medidas sostenibles a nivel individual, comunitario y gubernamental. Estas son algunas soluciones viables:</p>
+            <ul>
+                <li>Adoptar fuentes de energía limpia, como solar, eólica e hidroeléctrica, para reducir la dependencia de combustibles fósiles.</li>
+                <li>Implementar políticas de reforestación y restauración de ecosistemas degradados.</li>
+                <li>Reducir el consumo energético mediante el uso de electrodomésticos eficientes y el diseño de edificios sostenibles.</li>
+                <li>Fomentar hábitos sostenibles, como reducir el uso de plásticos, consumir productos locales y reutilizar materiales.</li>
+                <li>Promover la educación ambiental para aumentar la conciencia sobre los efectos del cambio climático.</li>
+            </ul>
+            <p>Además, las tecnologías emergentes, como la captura y almacenamiento de carbono, pueden desempeñar un papel crucial en la reducción de las emisiones de gases de efecto invernadero.</p>
+            <img src="ruta-a-tu-imagen3.jpg" alt="Soluciones sostenibles para el cambio climático">
+            <a href="link" class="boton">Más información</a>
+        </section>
+    </main>
+    <footer>
+        <p>Leonardo DiCaprio dijo: "Si dejamos de pensar en el cambio climatico este no desaparecera"</p>
+    </footer>
+</body>
+</html>
